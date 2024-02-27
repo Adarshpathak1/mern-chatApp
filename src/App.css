@@ -4,7 +4,7 @@
   font-family: "Poppins",sans-serif;
 }
 .App {
-  text-align: center;
+  /* text-align: center; */
   background-color: #dddedd;
   min-height: 100vh;
   display: flex;

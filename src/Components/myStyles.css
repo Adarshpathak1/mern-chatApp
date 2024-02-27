@@ -5,10 +5,33 @@
     display: flex;
 }
 .sidebar-container{
-    border: 5px solid red;
     flex: 0.3;
 }
 .workarea-container{
-    border: 5px solid blue;
+    background-color: aliceblue;
     flex: 0.7;
+}
+.sb-header{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sb-search{
+    background-color: white;
+    border-radius: 20px;
+    padding: 3px 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+ .search-box{
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 5px;
 }
