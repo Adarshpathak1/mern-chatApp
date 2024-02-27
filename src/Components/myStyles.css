@@ -1,0 +1,14 @@
+.main-container{
+    background-color: #f4f5f6;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+}
+.sidebar-container{
+    border: 5px solid red;
+    flex: 0.3;
+}
+.workarea-container{
+    border: 5px solid blue;
+    flex: 0.7;
+}
